@@ -1,5 +1,5 @@
 ---
-- hosts: jellyfin
+- hosts: my-server
   become: true
   tasks:
     - name: Update && Upgrade

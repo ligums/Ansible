@@ -1,6 +1,10 @@
----
 - hosts: jellyfin
   #become: true
   tasks:
-    - name: Update && Upgrade
-      shell: sudo apt update && sudo apt upgrade -y
+  - name: Update && Upgrade
+    shell: sudo apt update && sudo apt upgrade -y
+- hosts: nextcloud
+  #become: true
+  tasks:
+  - name: Update && Upgrade
+    shell: sudo apt update && sudo apt upgrade -y

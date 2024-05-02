@@ -1,5 +1,5 @@
 ---
-- hosts: my-server
+- hosts: Vm-Nico-ssh
   become: true
   tasks:
     - name: Update && Upgrade

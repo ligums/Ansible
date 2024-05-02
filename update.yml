@@ -1,6 +1,5 @@
 ---
-- hosts: Vm-Nico-ssh
-  become: true
+- hosts: jellyfin
   tasks:
     - name: Update && Upgrade
       shell: sudo apt update && sudo apt upgrade -y
